@@ -6,7 +6,6 @@ class Solution:
         i = j = 0
         total_length = m+n
         while i<m and j<n:
-            print(i,j)
             if nums1[i] > nums2[j]:
                 nums1.insert(i, nums2[j])
                 m+=1
